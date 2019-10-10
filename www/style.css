@@ -1,0 +1,53 @@
+/* style.css */
+
+
+/* Color of dashboard header */
+.skin-blue .main-header .logo  {
+  color: #fff;
+  background: #015e5e
+}
+
+/* logo when hovered */
+.skin-blue .main-header .logo:hover {
+  color: #fff;
+  background: #015e5e
+}
+
+.skin-blue .main-header .navbar {
+  color: #fff;
+  background: #015e5e
+}
+
+/* toggle button when hovered  */                    
+  .skin-blue .main-header .navbar .sidebar-toggle:hover{
+  color: #fff;
+  background: #015e5e
+}
+
+.logo {
+  max-width: 100%; 
+  width: 100%; 
+  height: auto
+}
+
+/* Add left margin to sidebar text */
+.sidebar-text{
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+/* Text color for pickerInput dropdown options */
+.skin-blue .sidebar a {
+    color: #444;
+}
+
+/* Popups */
+.leaflet-popup-content {
+  font-weight: normal;
+  margin: 3px 20px 3px 8px;
+  font-size: 15px;
+  text-align: center;
+}
+                 
+
+
