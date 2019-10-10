@@ -8,7 +8,7 @@ library(ggmap)
 # ggmap requires a Google Maps API key.
 # Never save your API key in a script.
 # Run the following command with your own API key.
-register_google(key = "< insert Google API key here >")
+register_google(key = "INSERT_GOOGLE_API_KEY_HERE")
 
 eateries <- read.csv("data/eateries.csv", 
                     header = TRUE, 
