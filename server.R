@@ -134,9 +134,9 @@ server <- function(input, output) {
   about_text <- htmltools::HTML(
     paste0(
       "The data are from the blog of ", about_link, ". ", 
-      "Many thanks to David for testing all this great food and compiling ", 
+      "Many thanks to Mr. Lebovitz for testing all this great food and compiling ", 
       "the list of eateries. ",
-      "</br></br>Although all the credit for the list goes to David, any errors ", 
+      "</br></br>Although all the credit for the list goes to Mr. Lebovitz, any errors ", 
       "in this app are solely my own. Before visiting a location, ", 
       "please be sure to verify the information, as businesses often change.",
       "</br></br>Code available at ", github_link, "."
