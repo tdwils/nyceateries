@@ -9,6 +9,7 @@ server <- function(input, output) {
   geodata <- reactive ({
     
     dataset <- read.csv("data/geodata.csv", 
+                        encoding = "UTF-8", 
                         stringsAsFactors = FALSE)
     
     return (dataset)
