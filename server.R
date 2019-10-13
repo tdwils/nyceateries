@@ -130,7 +130,7 @@ server <- function(input, output) {
   # About button -------------------------------------------------------
   
   about_link <- "<a href='https://www.davidlebovitz.com/new-york-restaurants-and-bakeries/' target='_blank'>David Lebovitz</a>"
-  github_link <- "<a href='https://www.github.com' target='_blank'>GitHub</a>"
+  github_link <- "<a href='https://github.com/tdwils/nyceateries.git' target='_blank'>GitHub</a>"
   about_text <- htmltools::HTML(
     paste0(
       "The data are from the blog of ", about_link, ". ", 
