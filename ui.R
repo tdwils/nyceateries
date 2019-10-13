@@ -5,7 +5,7 @@ ui <- fluidPage(
   includeCSS("www/style.css"),
   dashboardPage(skin = "blue",
                 dashboardHeader(disable = FALSE, 
-                                title = 'New York City Eateries', 
+                                title = "New York City Eateries", 
                                 titleWidth = 250),
                 dashboardSidebar(
                   disable = FALSE, width = 250,
@@ -36,7 +36,7 @@ ui <- fluidPage(
                            )
                   )
                 ),
-                dashboardBody(class = 'clearfix',
+                dashboardBody(class = "clearfix",
                               leafletOutput("eatery_map", height=600) %>% 
                                 withSpinner(type = 8, size = 0.5)
                 ) # END OF DASHBOARD BODY

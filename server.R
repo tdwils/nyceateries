@@ -105,9 +105,9 @@ server <- function(input, output) {
     
     
     icons <- awesomeIcons(
-      icon = 'ios-close',
-      iconColor = 'black',
-      library = 'ion',
+      icon = "ios-close",
+      iconColor = "black",
+      library = "ion",
       markerColor = "blue"
     )
     

@@ -7,7 +7,7 @@
   background: #015e5e
 }
 
-/* logo when hovered */
+/* Logo when hovered */
 .skin-blue .main-header .logo:hover {
   color: #fff;
   background: #015e5e
@@ -18,7 +18,7 @@
   background: #015e5e
 }
 
-/* toggle button when hovered  */                    
+/* Toggle button when hovered  */                    
   .skin-blue .main-header .navbar .sidebar-toggle:hover{
   color: #fff;
   background: #015e5e
