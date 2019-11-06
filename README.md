@@ -6,6 +6,7 @@ When the user hovers over a marker, the restaurant name is displayed. When the u
 
 Packages used include shiny, leaflet, and ggmap.
 
+A working version of the app can be found here: https://tdwils.shinyapps.io/nyceateries/ 
 
 ### To create your own map
 
