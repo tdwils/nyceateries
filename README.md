@@ -8,6 +8,8 @@ Packages used include shiny, leaflet, and ggmap.
 
 A working version of the app can be found here: https://tdwils.shinyapps.io/nyceateries/ 
 
+![Image of NYC Eateries Shiny app](https://github.com/tdwils/nyceateries/blob/master/www/nyceateries.PNG)
+
 ### To create your own map
 
 The input file "data/eateries.csv" should have these fields: name, url, address, and type.
